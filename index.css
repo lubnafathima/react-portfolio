@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.section {
+  width: 22rem;
+  text-align: center;
+}
+
+.title {
+  color: white;
+  background-color: blue;
+  padding: 1.5rem 2rem;
+  font-size: 1.5rem;
+}
+
+.header {
+  padding: 0 .75rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+}
+
+.userName {
+  color: red;
+  font-size: 3rem;
+}
+
+.user_logo {
+  width: 80%;
+  height: auto;
+}
+
+.download {
+  margin: 0 0 62px 0;
+}
+
+.link {
+  font-size: 17px;
+  color: blue;
+}
+
+.emailLogo {
+    width: 50px;
+    height: auto;
+}
+
+.mail_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.email_text {
+    font-size: .85rem;
+}
